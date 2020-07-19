@@ -262,4 +262,35 @@ let money = {
   )
   console.log(money)
 
-  
+
+
+
+var message = 
+`〜${currentMonth}月〜` + "\n" +
+"```" + 
+"【受注金額】" + "\n" +
+"Total    : " + money.actual.total + " / "  + money.target.total + "\n" +
+"\n" +
+"School   : "  + money.actual.school.subtotal + " / "  + money.target.school.subtotal + "\n" +
+"IT       : "  + money.actual.school.it + " / "  + money.target.school.it + "\n" +
+"English  : "  + money.actual.school.english + " / "  + money.target.school.english + "\n" +
+"\n" +
+"Online   : "  + money.actual.online.subtotal + " / "  + money.target.online.subtotal + "\n" +
+"IT       : "  + money.actual.online.it + " / "  + money.target.online.it + "\n" +
+"English  : "  + money.actual.online.english + " / "  + money.target.online.english + "\n" +
+"\n" +
+"OEM      : "  + money.actual.oem + " / "  + money.target.oem + "\n" +
+"Offshore : "  + money.actual.offshore + " / "  + money.target.offshore + "\n" +
+"Other    : " + money.actual.other + " / "  + money.target.other + "\n" +
+"\n" +
+"【受注件数】" + "\n" +
+"Total    : " + count.actual.total + " / "  + count.target.total + "\n" +
+"\n" +
+"School   : "  + count.actual.school.subtotal + " / "  + count.target.school.subtotal + "\n" +
+"IT       : "  + count.actual.school.it + " / "  + count.target.school.it + "\n" +
+"English  : "  + count.actual.school.english + " / "  + count.target.school.english + "\n" +
+"\n" +
+"Online   : "  + count.actual.online.subtotal + " / "  + count.target.online.subtotal + "\n" +
+"IT       : "  + count.actual.online.it + " / "  + count.target.online.it + "\n" +
+"English  : "  + count.actual.online.english + " / "  + count.target.online.english + "\n" +
+"```";
