@@ -1,3 +1,4 @@
+// OffshoreのKPIを毎日投稿するGAS
 // 毎日0時にsetTriggerが実行される
 // 平日（月〜金）ならmyFunction を指定した時間に実行
 // 休日（土日）なら何も行わない

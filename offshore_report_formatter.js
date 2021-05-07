@@ -1,3 +1,6 @@
+// Offshoreのレポートフォーマット
+// JIRAからImportという名前のシートにCSVをインポートし、Reportのシートに出力するGAS
+
 // スクリプト実行ボタンをメニューに追加
 function onOpen() {
     var ui = SpreadsheetApp.getUi();
